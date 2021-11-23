@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e4e4e4;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.personContainer {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* textInterface*/
+
+.textInterface {
+    width: 35%;
+    height: 80vh;
+    background-color: rgb(214, 202, 202);
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, .5);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textInput {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+.fas {
+    font-size: 26px;
+    margin: 0px 5px;
+    color: rgb(38, 38, 236);
+    cursor: pointer;
+}
+
+.fas:active {
+    font-size: 24px;
+}
+
+.inputAndIcon {
+    display: flex;
+    align-items: center;
+}
+
+.showText {
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.marginBottom {
+    margin-bottom: 20px;
+}
+
+/*with javascript */
+
+.textBox {
+    width: auto;
+    background-color: rgb(34, 85, 195);
+    margin: 5px;
+    padding: 5px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    color: white;
+    max-width: auto;
+}
+
+.who {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+}
+
+select {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.whichContainer {
+    display: flex;
+    align-items: center;
+    max-width: 70%;
+}
+
+.toWhome {
+    font-size: 13px;
+    color: grey;
+}
+
+.bigMiniContainer, .bigMiniContainer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.bigMiniContainerForOther {
+    justify-content: flex-start;
+}
